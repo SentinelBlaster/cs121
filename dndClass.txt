@@ -1,0 +1,6 @@
+Class Ability Role
+Fighter Str Frontline
+Wizard Int Magic
+Rogue Dex SneakAttack
+Cleric Wis Healing
+Druid Wis Support

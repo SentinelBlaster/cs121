@@ -1,0 +1,4 @@
+Courses Credits Score
+ENG 4 23
+MDIA 4 55
+MATH 3 85

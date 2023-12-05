@@ -1,0 +1,5 @@
+Courses Credits Score
+CS120 4 97
+CS121 4 89
+ENG104 3 95
+MDIA100 3 96
