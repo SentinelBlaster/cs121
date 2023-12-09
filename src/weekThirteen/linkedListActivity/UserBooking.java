@@ -34,6 +34,11 @@ public class UserBooking {
 
     public void getUserInfo(){
         System.out.println(userName);
+        System.out.println(movieTitle);
+        System.out.printf("%s minutes%n",runTime);
+        System.out.println(genre);
+        System.out.println(description);
+        System.out.println(theater);
         //I wasn't sure what counted for "user info"
     }
 
