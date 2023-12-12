@@ -1,0 +1,2 @@
+A queue is better to use if you need the things to be read in the order you placed them in
+A stack allows you to read things in reverse order
