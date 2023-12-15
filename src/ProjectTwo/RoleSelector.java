@@ -16,7 +16,6 @@ public class RoleSelector {
     private int speedOneTwo = 0;
 
 
-
     public static String readCol(int col, String filepath, String deliminiter) {
         String[] data;
         String currentLine;
