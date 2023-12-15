@@ -9,7 +9,7 @@ import java.util.Scanner;
 //https://www.youtube.com/watch?v=bIjMDpspzog&list=PLrqwM2iFaguj8s35Icp3vDcLnlzmR3GUA&index=2 (The searching in the beginning)
 
 public class FightingProjectTwo {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args){
         //Initialize
         Scanner console = new Scanner(System.in);
         Random random = new Random();
