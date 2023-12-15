@@ -5,4 +5,4 @@ for the right role. I chose an Array list for that because all the
 data is the same type and I only have to access the first point
 unless the data needed is found. Most of this was just moving all
 the file reading code into a new class. Other than that, it was
-relatively easy
+relatively easy.
