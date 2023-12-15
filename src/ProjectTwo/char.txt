@@ -1,0 +1,6 @@
+Role HP AttackNameOne AttackDamageOne AttackSpeedOne AttackNameTwo AttackDamageTwo AttackSpeedTwo
+Ranger 75 Snipe 50 5 RapidShot 30 15
+Brawler 125 Thrust 25 10 RightHook 50 5
+Rogue 75 Slice 25 15 Backstab 50 5
+Mage 75 MagicMissile 25 15 Fireball 50 7
+Sorcerer 75 Firebolt 25 15 IceBlast 50 7
