@@ -2,13 +2,13 @@ package ProjectTwo;
 
 import java.util.Scanner;
 
-public class charAssignmentTwo {
+public class charAssignmentProjectTwo {
     Scanner console = new Scanner(System.in);
     String role, attackOneName, attackTwoName;
     int hitPoints, hpMax, attackOneDamage, attackOneSpeed, attackTwoDamage, attackTwoSpeed;
 
     //constructor
-    public charAssignmentTwo(String role, int hitPoints, String attackOneName, int attackOneDamage, int attackOneSpeed, String attackTwoName, int attackTwoDamage, int attackTwoSpeed){
+    public charAssignmentProjectTwo(String role, int hitPoints, String attackOneName, int attackOneDamage, int attackOneSpeed, String attackTwoName, int attackTwoDamage, int attackTwoSpeed){
         this.role = role;
         this.hitPoints = hitPoints;
         this.hpMax = hitPoints;

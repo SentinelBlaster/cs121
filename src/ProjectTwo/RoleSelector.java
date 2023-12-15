@@ -8,24 +8,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class RoleSelector {
-    Scanner console = new Scanner(System.in);
     private String pathname = "C:\\Users\\jpfai\\IdeaProjects\\cs121\\src\\ProjectTwo\\char.txt";
-    private String role;
-    private String hp;
-    private String attackOneName;
-    private String attackOneDamage;
-    private String attackOneSpeed;
-    private String attackTwoName;
-    private String attackTwoSpeed;
-    private String attackTwoDamage;
 
-    private String roleOne = null;
-    private int hpOne = 0;
-    private String attackOneOne = null;
-    private int damageOneOne = 0;
-    private int speedOneOne = 0;
-    private String attackOneTwo = null;
-    private int damageOneTwo = 0;
+    ArrayList<String> searchInfo = new ArrayList<>(8);
+    private String roleOne = null; private int hpOne = 0; private String attackOneOne = null; private int damageOneOne = 0;
+    private int speedOneOne = 0; private String attackOneTwo = null; private int damageOneTwo = 0;
     private int speedOneTwo = 0;
 
 
@@ -63,28 +50,29 @@ public class RoleSelector {
             Scanner x = new Scanner(new File(pathname));
 
             while (x.hasNext() && !foundOne) {
-                this.role = x.next();
-                this.hp = x.next();
-                this.attackOneName = x.next();
-                this.attackOneDamage = x.next();
-                this.attackOneSpeed = x.next();
-                this.attackTwoName = x.next();
-                this.attackTwoDamage = x.next();
-                this.attackTwoSpeed = x.next();
+                //this.role = x.next();
+                searchInfo.set(0,x.next());
+                searchInfo.set(1,x.next());
+                searchInfo.set(2,x.next());
+                searchInfo.set(3,x.next());
+                searchInfo.set(4,x.next());
+                searchInfo.set(5,x.next());
+                searchInfo.set(6,x.next());
+                searchInfo.set(7,x.next());
 
-                if (role.equals(choice)) {
+                if (searchInfo.get(0).equals(choice)) {
                     foundOne = true;
                 }
             }
             if (foundOne) {
-                this.roleOne = role;
-                this.hpOne = Integer.parseInt(hp);
-                this.attackOneOne = attackOneName;
-                this.damageOneOne = Integer.parseInt(attackOneDamage);
-                this.speedOneOne = Integer.parseInt(attackOneSpeed);
-                this.attackOneTwo = attackTwoName;
-                this.damageOneTwo = Integer.parseInt(attackTwoDamage);
-                this.speedOneTwo = Integer.parseInt(attackTwoSpeed);
+                this.roleOne = searchInfo.get(0);
+                this.hpOne = Integer.parseInt(searchInfo.get(1));
+                this.attackOneOne = searchInfo.get(2);
+                this.damageOneOne = Integer.parseInt(searchInfo.get(3));
+                this.speedOneOne = Integer.parseInt(searchInfo.get(4));
+                this.attackOneTwo = searchInfo.get(5);
+                this.damageOneTwo = Integer.parseInt(searchInfo.get(6));
+                this.speedOneTwo = Integer.parseInt(searchInfo.get(7));
 
             }
 
@@ -94,34 +82,34 @@ public class RoleSelector {
     }
 
     public String getRole() {
-        return role;
+        return roleOne;
     }
 
     public int getHp() {
-        return Integer.parseInt(hp);
+        return hpOne;
     }
 
     public String getAttackOneName() {
-        return attackOneName;
+        return attackOneOne;
     }
 
     public int getAttackOneDamage() {
-        return Integer.parseInt(attackOneDamage);
+        return damageOneOne;
     }
 
     public int getAttackOneSpeed() {
-        return Integer.parseInt(attackOneSpeed);
+        return speedOneOne;
     }
 
     public String getAttackTwoName() {
-        return attackTwoName;
+        return attackOneTwo;
     }
 
     public int getAttackTwoSpeed() {
-        return Integer.parseInt(attackTwoSpeed);
+        return speedOneTwo;
     }
 
     public int getAttackTwoDamage() {
-        return Integer.parseInt(attackTwoDamage);
+        return damageOneTwo;
     }
 }

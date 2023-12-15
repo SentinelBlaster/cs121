@@ -1,18 +1,14 @@
 package ProjectTwo;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Random;
 import java.util.Scanner;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.util.ArrayList;
 
 //Code that you can tell hasn't been taught in this class was found at:
 //https://www.youtube.com/watch?v=Ek6HFMNi3fs&list=PLrqwM2iFaguj8s35Icp3vDcLnlzmR3GUA&index=12 (readCol)
 //https://www.youtube.com/watch?v=bIjMDpspzog&list=PLrqwM2iFaguj8s35Icp3vDcLnlzmR3GUA&index=2 (The searching in the beginning)
 
-public class FightingGameFilereaderTwo {
+public class FightingProjectTwo {
     public static void main(String[] args) throws FileNotFoundException {
         //Initialize
         Scanner console = new Scanner(System.in);
@@ -33,7 +29,7 @@ public class FightingGameFilereaderTwo {
 
         roleSelectorA.choseRole(choiceone);
 
-        charAssignmentTwo playerOne = new charAssignmentTwo(roleSelectorA.getRole(), roleSelectorA.getHp(),
+        charAssignmentProjectTwo playerOne = new charAssignmentProjectTwo(roleSelectorA.getRole(), roleSelectorA.getHp(),
                 roleSelectorA.getAttackOneName(), roleSelectorA.getAttackOneDamage(), roleSelectorA.getAttackOneSpeed(),
                 roleSelectorA.getAttackTwoName(), roleSelectorA.getAttackTwoDamage(), roleSelectorA.getAttackTwoSpeed());
 
@@ -44,7 +40,7 @@ public class FightingGameFilereaderTwo {
         System.out.println("Player Two, please choose a role:");
         String choicetwo = console.nextLine();
         roleSelectorB.choseRole(choicetwo);
-        charAssignmentTwo playerTwo = new charAssignmentTwo(roleSelectorB.getRole(), roleSelectorB.getHp(),
+        charAssignmentProjectTwo playerTwo = new charAssignmentProjectTwo(roleSelectorB.getRole(), roleSelectorB.getHp(),
                 roleSelectorB.getAttackOneName(), roleSelectorB.getAttackOneDamage(), roleSelectorB.getAttackOneSpeed(),
                 roleSelectorB.getAttackTwoName(), roleSelectorB.getAttackTwoDamage(), roleSelectorB.getAttackTwoSpeed());
         System.out.println("============================");
