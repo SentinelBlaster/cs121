@@ -1,6 +1,2 @@
-Please go into the file reader version and replace the "pathname" variable with the
-absolute path that leads to "char.txt" Numbers are not balanced in the slightest as it
-is currently 2 o'clock in the morning. I stayed up an extra two hours to write this version.
-While the first version (still included in this zip file) does technically work, the updated version,
-in addition to being able to read from a file, has a slightly more advanced combat system and
-updated graphics. (I kind of rushed to get the first version in)
+Please go into the RoleSelector program and replace the "pathname" variable with the
+absolute path that leads to "char.txt"

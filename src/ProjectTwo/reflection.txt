@@ -1,6 +1,0 @@
-One of the biggest issues I had was the fact that after I created and instant of my charAssignment class,
-it would ignore the next call to console. I managed to fix this by calling a phony console
-so only the ones I needed were actually filled.I think the class I created helped a lot, because all I had to
-to put in the main file was the game logic. all of the character logic was already written.
-
-In terms of the file reader, the most difficult part was getting the file reader to read what I wanted it to read.

@@ -1,0 +1,8 @@
+The big change between this program and Project One is that all the
+file reading happens in the new class "RoleSelector" I chose to use an
+Array list to help hold the terms as the program searches
+for the right role. I chose an Array list for that because all the
+data is the same type and I only have to access the first point
+unless the data needed is found. Most of this was just moving all
+the file reading code into a new class. Other than that, it was
+relatively easy

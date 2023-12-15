@@ -19,8 +19,6 @@ public class FightingProjectTwo {
 
         int playerOneScore = 0;
         int playerTwoScore = 0;
-        String pathname = "C:\\Users\\jpfai\\IdeaProjects\\cs121\\src\\ProjectTwo\\char.txt";
-
         roleSelectorA.roleDisplay();
 
         System.out.println("============================");
